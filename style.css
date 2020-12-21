@@ -1,0 +1,411 @@
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+     
+
+}
+
+/* Header section start */
+header{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 0% 7%; 
+    text-align: center;
+    
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-right: 40px;
+    
+}
+
+.nav ul li {
+    display: block;
+   
+    
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 70px;
+    padding: 0% 5px;
+    text-align: center;
+    margin-right: 50px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    transition: .3s;
+    
+}
+.nav ul li a:hover{
+    background-color: rgb(62, 60, 124);
+    border-radius: 15px;
+    transform: scale(1.1);
+}
+
+
+
+/* Header section Ends */
+
+
+/* Banner Section start here */
+
+#banner-section{
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    
+    
+}
+
+.banner-contents{
+    text-align: center;
+    padding: 50px 10px;
+    height: 550px;
+   
+
+}
+.banner-contents h1{
+    background-color: rgb(219, 170, 7);
+    font-size: 3.2rem;
+    padding:10px 0;
+    width: 100%;
+    margin: 120px 0px auto auto;
+   border-radius: 10px;
+   font-family: 'Handlee', cursive;
+    color:black;
+}
+
+.banner-contents p{
+    background-color: rgb(5, 75, 71);
+    font-size: 1.5rem;
+    width: 350px;
+    text-align: center;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn{
+    background-color: rgb(6, 141, 134);
+    width: 160px;
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    border: none;
+    outline-style: none;
+    text-transform: uppercase;
+    transform: .4s;
+
+}
+.btn:hover{
+    background-color: rgb(168, 16, 168);
+    transform: scale(1.1);
+    color: black;
+}
+
+
+/* Banner Section ends here */
+
+/* About us start */
+
+#about-us{
+    padding: 1% 8% ;
+    
+}
+.aboutus-content{
+    text-align: center;
+    
+}
+
+.aboutus-content h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.aboutus-content p{
+    font-size: 1rem;
+    text-align:center;
+}
+
+/* ABout us endss */
+
+
+
+/* Food menu start */
+
+#food-menu{
+    padding:1% ;
+}
+.cardbody{
+    text-align: center;
+    /* margin-right: 25px; */
+    
+    
+   
+}
+
+
+.card img{
+    max-width: 100%;
+    height:auto;
+     display: block; 
+    
+    
+    
+}
+.card-desc{
+    background-color: rgb(148, 144, 144);
+    
+    
+    
+    
+}
+.card-desc h3{
+    background-color: rgb(37, 57, 104);
+    padding: 10px;
+    font-size: 1.3rem;
+    color: white;
+}
+.card-desc p{
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bolder
+}
+.cardbody{
+    transition: .4s;
+}
+.cardbody:hover{
+    transform: scale(1.1);
+}
+/* Food menu Ends */
+/* Contract start */
+#contract{
+    padding: 1%;
+    background-color: rgb(7, 66, 68);
+}
+
+.contract-details{
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+hr{
+    border: 5px dotted tomato;
+    border-bottom: none;
+    width: 50%;
+    margin: auto;
+    
+    
+}
+.map{
+    width: 100%;
+    height: 300px;
+}
+
+.contract-details h3{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    
+}
+
+.contract-details h5 ,address{
+    font-size: 1rem;
+}
+
+
+
+
+/* Contract ends */
+
+
+/* Footer Start */
+ footer{
+     padding: 1%;
+     color: white;
+     background-color: rgb(47, 44, 44);
+ }
+
+ footer p{
+     margin: 20px;
+     font-size: 1rem;
+     text-align: center;
+     line-height: 32px;
+    
+ }
+.social-menu{
+    text-align: center;
+}
+ .icon{
+    color: white;
+    width: 35px;
+    height: 35px;
+    
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: .4s;
+}
+.icon:hover{
+    background-color: rgb(138, 134, 134);
+   
+}
+
+
+/* Footer Ends */
+
+
+
+.row{
+    width: 100%;
+}
+.row::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+[class*=col-]{
+    float: left;
+    padding: 10px;
+}
+
+
+  [class*=col-]{
+    width: 100%;
+}   
+
+/* Small device */
+@media (min-width:576px){
+
+.col-sm-1{width: 8.33%;}
+.col-sm-2{width: 16.66%;}
+.col-sm-3{width: 25%;}
+.col-sm-4{width: 33.33%;}
+.col-sm-5{width: 41.66%;}
+.col-sm-6{width: 50%;}
+.col-sm-7{width: 58.33%;}
+.col-sm-8{width: 66.66%;}
+.col-sm-9{width: 75%;}
+.col-sm-10{width: 83.33%;}
+.col-sm-11{width: 91.66%;}
+.col-sm-12{width: 100%;}
+}
+
+
+/* Medium device */
+@media (min-width:768px){
+    
+    .col-md-1{width: 8.33%;}
+    .col-md-2{width: 16.66%;}
+    .col-md-3{width: 25%;}
+    .col-md-4{width: 33.33%;}
+    .col-md-5{width: 41.66%;}
+    .col-md-6{width: 50%;}
+    .col-md-7{width: 58.33%;}
+    .col-md-8{width: 66.66%;}
+    .col-md-9{width: 75%;}
+    .col-md-10{width: 83.33%;}
+    .col-md-11{width: 91.66%;}
+    .col-md-12{width: 100%;}
+    }
+
+
+
+/* Large device */
+@media (min-width:992px){
+
+     .logo{
+        float: left;
+    }
+     
+    .nav ul  {
+        
+        text-align: right; 
+        
+    }
+    .nav ul li{
+        display: inline-block;
+    }
+    .nav ul li a{
+        text-align: right;
+        display: inline-block;
+        
+        transition: .3s;
+        
+    }
+    .nav ul li a:hover{
+        background-color: transparent;
+        transform: scale(1.1);
+        text-decoration: underline;
+    } 
+
+    #banner-section{
+        position: relative;
+        height: 100vh;
+    }
+
+    .banner-contents{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%)
+    }
+    .banner-contents h1{
+        width: 700px;
+        font-size: 3rem;
+    }
+    .banner-contents p{
+        width: 500px;
+        font-size: 2rem;
+    }
+
+    
+    footer p{
+        text-align: left;
+    }
+    .social-menu{
+        text-align: right;
+        margin-top: 15px;
+    }
+
+    
+
+    .col-lg-1{width: 8.33%;}
+    .col-lg-2{width: 16.66%;}
+    .col-lg-3{width: 25%;}
+    .col-lg-4{width: 33.33%;}
+    .col-lg-5{width: 41.66%;}
+    .col-lg-6{width: 50%;}
+    .col-lg-7{width: 58.33%;}
+    .col-lg-8{width: 66.66%;}
+    .col-lg-9{width: 75%;}
+    .col-lg-10{width: 83.33%;}
+    .col-lg-11{width: 91.66%;}
+    .col-lg-12{width: 100%;}
+} 
